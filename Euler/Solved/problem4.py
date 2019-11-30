@@ -6,11 +6,13 @@
 
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
+
 def isNumberPalindrome(n):
     palindrome = str(n)
     if palindrome == palindrome[::-1]:
         return True
     return False
+
 
 x = 999
 y = x
@@ -26,7 +28,7 @@ while x > 99:
     else:
         if y > 99:
             y -= 1
-        else: 
+        else:
             x -= 1
             y = x
 
