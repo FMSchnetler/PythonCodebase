@@ -9,7 +9,8 @@
 def highestPrimeFactor(n):
     leftOver = n
     divisor = 2
-    while divisor < leftOver:
+    while divisor < lef
+    tOver:
         if leftOver % divisor == 0:
             leftOver = leftOver // divisor
         else:
